@@ -26,6 +26,10 @@ public class Account implements Serializable {
   private boolean listOption;
   private boolean bannerOption;
   private String bannerName;
+  
+  /*소동추가*/
+  private int sellCnt;
+  private int noPayCnt;
 
   /* JavaBeans Properties */
 
@@ -76,13 +80,21 @@ public class Account implements Serializable {
 
   public boolean isListOption() { return listOption; }
   public void setListOption(boolean listOption) { this.listOption = listOption; }
-	public int getListOptionAsInt() { return listOption ? 1 : 0; }
+  public int getListOptionAsInt() { return listOption ? 1 : 0; }
 
   public boolean isBannerOption() { return bannerOption; }
   public void setBannerOption(boolean bannerOption) { this.bannerOption = bannerOption; }
-	public int getBannerOptionAsInt() { return bannerOption ? 1 : 0; }
+  public int getBannerOptionAsInt() { return bannerOption ? 1 : 0; }
 
   public String getBannerName() { return bannerName; }
   public void setBannerName(String bannerName) { this.bannerName = bannerName; }
+  
+  /*소동추가*/
+  public int getSellCnt() {return sellCnt;}
+  public void setSellCnt(int sellCnt) {this.sellCnt = sellCnt;}
+	
+  public int getNoPayCnt() {return noPayCnt;}
+  public void setNoPayCnt(int noPayCnt) {this.noPayCnt = noPayCnt;}
+  
 
 }
