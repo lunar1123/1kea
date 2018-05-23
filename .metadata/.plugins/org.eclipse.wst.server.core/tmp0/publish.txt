@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri May 18 16:24:43 KST 2018
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\HyunJung\ Park\\.m2\\repository\\org\\springframework\\spring-web\\4.3.14.RELEASE\\spring-web-4.3.14.RELEASE.jar=C\:\\Program Files\\sts-bundle\\pivotal-tc-server-developer-3.2.9.RELEASE\\base-instance\\wtpwebapps\\1KEA\\WEB-INF\\lib\\spring-web-4.3.14.RELEASE.jar
+org.eclipse.jst.jee.server\:1KEA=C\:\\Program Files\\sts-bundle\\pivotal-tc-server-developer-3.2.9.RELEASE\\base-instance\\wtpwebapps\\1KEA
